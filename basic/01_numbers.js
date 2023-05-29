@@ -30,13 +30,13 @@ console.log(+stringInt + 2); // 44 - число
 
 console.log(parseInt(stringFloat) + 2); // parseInt работает с int, с float откидывает дробную часть
 console.log(parseFloat(stringFloat) + 2); // 44.42
-console.log(+parseFloat(stringFloat) + 2 ); // 44.42
+console.log(+stringFloat + 2 ); // 44.42
 
 
 console.log(0.4 + 0.2); // 0.6000000000001
 console.log((0.4 + 0.2).toFixed(1)); // string
 console.log(+(0.4 + 0.2).toFixed(1)); // number
-console.log(parseFloat(0.4 + 0.2).toFixed(1)); // number
+console.log(parseFloat((0.4 + 0.2).toFixed(1))); // number
 
 // 2. BigInt
 console.log(99532928395823n - 3432432432n);

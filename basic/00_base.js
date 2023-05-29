@@ -67,7 +67,7 @@ console.log(typeof _isProgrammer); // boolean
 console.log(typeof _name); // string
 console.log(typeof age2); // number
 console.log(typeof x); // undefined
-console.log(typeof null); // null
+console.log(typeof null); // object
 
 
 
