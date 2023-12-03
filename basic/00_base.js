@@ -1,11 +1,11 @@
 // 1. Переменные
 // variable
 var firstName = 'Igor';
-const lastName = 'Soomlir'; // string
+const lastName = "Soomlir"; // string
 let age = 33; // number
 const isProgrammer = true; // boolean
 
-const _ = 'private';
+const _ = `private`;
 let $ = 7;
 
 // const if = 1; // error
@@ -23,6 +23,7 @@ console.log(age.toString()); // разным цветом в консоли чи
 
 // const _lastName = prompt('Введите фамилию');
 // alert(firstName + ' ' + _lastName);
+// confirm();
 
 
 
@@ -62,14 +63,16 @@ const _isProgrammer = true;
 const _name = 'Igor';
 const age2 = 33;
 let x; // undefined
+let big = 10n;
 
 console.log(typeof _isProgrammer); // boolean
 console.log(typeof _name); // string
 console.log(typeof age2); // number
 console.log(typeof x); // undefined
 console.log(typeof null); // object
-
-
+console.log(typeof big); // BigInt
+console.log(typeof Symbol()); // Symbol
+console.log(typeof {}); // Object
 
 
 // 5. Приоритет операторов
@@ -105,8 +108,6 @@ if (isReady) {
 
 // Тернарное выражение (Тернарный оператор)
 isReady ? console.log('Все готово') : console.log('Все не готово');
-
-
 
 const num1 = 42; // number
 const num2 = '42'; // string
