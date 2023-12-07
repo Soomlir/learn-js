@@ -1,5 +1,4 @@
 // 1. Number
-
 const num = 42; // integer
 const num2 = 42.42; // float
 const pow = 10e3; // 10 в 3 степень - 10000
@@ -38,7 +37,6 @@ console.log((0.1 + 0.2).toFixed(1)); // 0.3 - возвращает строку
 console.log(+(0.1 + 0.2).toFixed(1)); // 0.3 - number
 
 // 2. BigInt
-
 // BigInt - работает только с BigInt, не может быть float
 console.log(BigInt(Number.MAX_SAFE_INTEGER) + 9432432n);
 console.log(-42n);

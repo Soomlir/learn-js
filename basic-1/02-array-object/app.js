@@ -105,4 +105,4 @@ console.log(person.year);
 console.log(person["languages"]);
 
 const key = "hasProfession";
-console.log(person[key]);
+console.log(person[key]); // Динамический ключ

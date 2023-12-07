@@ -1,3 +1,4 @@
+// 1.Строки
 const name = "Katya";
 const age = 30;
 

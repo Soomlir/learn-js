@@ -1,3 +1,5 @@
+// 1.Функции
+
 // Function Delaration
 function greet(name) {
   console.log("Hello - ", name);
