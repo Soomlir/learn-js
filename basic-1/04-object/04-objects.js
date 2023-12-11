@@ -94,7 +94,8 @@ logger2.keys.call(person); //- call - сразу же вызывает
 logger2.keys.apply(person);
 
 class Person7 {
-  constructor(name, age) { // Конструктор вызывается в момент объявления new Obj()
+  constructor(name, age) {
+    // Конструктор вызывается в момент объявления new Obj()
     super(); // Вызываем конструктор родительского класса
     this.name = name;
     this.age = age;
@@ -105,4 +106,4 @@ class Person7 {
   }
 }
 
-const newPerson = new Person7("Katya", 30); 
+const newPerson = new Person7("Katya", 30);
