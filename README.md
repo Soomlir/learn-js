@@ -1,4 +1,5 @@
 # learn-js
 
-Описание: 
-* изучение JavaScript
+Описание:  
+
+Изучение JavaScript
